@@ -19,7 +19,15 @@
  * 2 Hello World
  */
  export function sayHiMultipleTimes(count) {
+    let text= ""
+    for(let i=0;i<count;i=i+1) {
+        let prefix=i+1
+        text=text + prefix + " Hello World"
 
+    }
+    return text
+    
+    
 }
 
 /**

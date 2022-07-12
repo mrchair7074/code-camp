@@ -49,7 +49,7 @@ describe('001 hello world tests', () => {
             const expected = '1 Hello World';
 
             const result = sayHiMultipleTimes(1);
-
+            
             expect(result).toBe(expected);
         })
 
