@@ -22,11 +22,14 @@
     let text= ""
     for(let i=0;i<count;i=i+1) {
         let prefix=i+1
+        if(i>=1){
+            text=text + "\n" 
+        }
         text=text + prefix + " Hello World"
-
+        
     }
     return text
-    
+
     
 }
 
